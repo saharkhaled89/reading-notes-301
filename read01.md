@@ -175,9 +175,9 @@
 
 *Let's start with a practical and common need: a main content area being 2/3 the width and a sidebar being 1/3 the width. We just make two column divs with appropriate class names.*
 
-[img](/img/grid.jpg)
+[img](/img/grid.png)
 
-[img](/img/grid2.jpg)
+[img](/img/grid2.png)
 
 
 ## Clearing Context
