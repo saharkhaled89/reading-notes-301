@@ -120,21 +120,21 @@
 
 **Aside from the simple example of wrapping text around images, floats can be used to create entire web layouts.**
 
-![img](img/web-layout(1).png)
+![img](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-layout.png?resize=540%2C240&ssl=1)
 
 *Floats are also helpful for layout in smaller instances. Take for example this little area of a web page. If we use float for our little avatar image, when that image changes size the text in the box will reflow to accommodate:*
 
-![img](reflow-example-1.png)
+![img](/img/reflow-example-1.png)
 
 *This same layout could be accomplished using relative positioning on container and absolute positioning on the avatar as well. In doing it this way, the text would be unaffected by the avatar and not be able to reflow on a size change.*
 
-![img](reflow-example-2.png)
+![img](/img/reflow-example-2.png)
 
 **Clearing the Float**
 
 **Float's sister property is clear. An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float. Again an illustration probably does more good than words do.**
 
-![img](unclearedfooter.png)
+![img](/img/unclearedfooter.png)
 
 
 **In the above example, the sidebar is floated to the right and is shorter than the main content area.**
@@ -147,10 +147,10 @@
 
 **}**
 
-![img](clearedfooter.png)
+![img](/img/clearedfooter.png)
 
 **clear has four valid values as well. Both is most commonly used, which clears floats coming from either direction. Left and Right can be used to only clear the float from one direction respectively. None is the default, which is typically unnecessary unless removing a clear value from a cascade. Inherit would be the fifth, but is strangely not supported in Internet Explorer. Clearing only the left or right float, while less commonly seen in the wild, definitely has its uses.**
 
-![img](directionalclearing.png)
+![img](/img/directionalclearing.png)
 
 
