@@ -154,3 +154,87 @@
 ![img](/img/directionalclearing.png)
 
 
+
+
+# Don’t Overthink It Grids
+
+## Context
+
+**A block level element is as wide as the parent it's inside (width: auto;). We can think of it as 100% wide. The wrapper for a grid probably don't have much to do with semantics, it's just a generic wrapper, so a div is fine.**
+
+**<div class="grid">**
+
+  **<!-- 100% wide -->**
+
+**</div>**
+
+
+# grid context
+
+## Columns
+
+*Let's start with a practical and common need: a main content area being 2/3 the width and a sidebar being 1/3 the width. We just make two column divs with appropriate class names.*
+
+[img](/img/grid.jpg)
+
+[img](/img/grid2.jpg)
+
+
+## Clearing Context
+
+**The parent element will collapse to zero height since it has only floated children. Let's fix that by clearing it. These days all you need is this:**
+
+**.grid:after {**
+
+  **content: "";**
+
+  **display: table;**
+
+  **clear: both;**
+
+**}**
+
+## Gutters
+
+**The hardest part about grids is gutters. So far we've made our grid flexible by using percentages for widths.**
+
+* The first step toward this is using box-sizing: border-box;
+
+[img](/img/grid3.png)
+
+* The second step is applying a fixed padding to the right side of all columns except the last one.
+
+[img](/img/grid4.png)
+
+
+# CSS Floats Explained By Riding An Escalator
+
+## Floats: Left and Right
+
+* Using floats can introduce up to two new flows: left and right.
+
+* And this allows the normal flow of elements, those without a float value, to fill in the spaces around these elements
+
+* Floats allow you to create these new relationships between flows.
+
+
+# SMACSS Official Documentation
+
+# What is it?
+
+**SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.**
+
+**At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.**
+
+**There are five types of categories:**
+
+* Base: Base rules are the defaults. They are almost exclusively single element selectors but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors.
+
+* Layout: divide the page into sections. Layouts hold one or more modules together.
+
+* Module: are the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on.
+
+* State: are ways to describe how our modules or layouts will look when in a particular state. Is it hidden or expanded? Is it active or inactive? They are about describing how a module or layout looks on screens that are smaller or bigger. They are also about describing how a module might look in different views like the home page or the inside page.
+
+* Theme: are similar to state rules in that they describe how modules or layouts might look. Most sites don’t require a layer of theming but it is good to be aware of it.
+
