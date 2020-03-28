@@ -120,7 +120,7 @@
 
 **Aside from the simple example of wrapping text around images, floats can be used to create entire web layouts.**
 
-![img](web-layout(1).png)
+![img](img/web-layout(1).png)
 
 *Floats are also helpful for layout in smaller instances. Take for example this little area of a web page. If we use float for our little avatar image, when that image changes size the text in the box will reflow to accommodate:*
 
