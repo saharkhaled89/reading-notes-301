@@ -52,7 +52,7 @@ jQuery uses a language that is already familiar to front-end web developers: CSS
 
 ![img](/img/single.png)
 
-![img](/img/sit.png)
+![img](/img/set.png)
 
 # LOOPING 
 
