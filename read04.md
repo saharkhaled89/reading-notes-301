@@ -139,3 +139,5 @@ The Full Page Image Gallery
 
 **to get the same result. Using the span value with a number will make a grid cell span that many rows, or columns . grid-column: span 2; for example, will create a cell that is two columns wide. I’ve used object-fit again to make the images keep their aspect ratio while filling the space of their containers. If the images in your gallery have more constraints than cat pictures, with regards to the space they’ll fit in then you can use media queries to change the number of rows or columns they span at different widths.**
 
+
+
