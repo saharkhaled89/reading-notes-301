@@ -10,7 +10,7 @@
 | read3      |*read 03* |[read03](https://saharkhaled89.github.io/reading-notes-301/read03)                                |                                               
 | read4      |*read 04* |[read04](https://saharkhaled89.github.io/reading-notes-301/read04)                                |   
 | read5      |*read 05* |[read05](https://saharkhaled89.github.io/reading-notes-301/read05)                                |   
-| read6      |*read 06* |[read06]()                                |   
+| read6      |*read 06* |[read06](https://saharkhaled89.github.io/reading-notes-301/read06)                                |   
 | read7      |*read 07* |[read07]()                                |   
 | read8      |*read 08* |[read08]()                                |   
 | read9      |*read 09* |[read09]()                                |   
