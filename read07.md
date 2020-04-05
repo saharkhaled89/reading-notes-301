@@ -58,3 +58,30 @@
 **The response status flags help determine if the request was a success, among other useful information, making SuperAgent ideal for interacting with RESTful web services.**
 
 
+# Weather API Call Types
+
+## We provide two types of API requests to retrieve the weather anywhere in the world:
+
+* The Forecast Request returns the current weather forecast for the next week.
+
+* The Time Machine Request returns the observed or forecast weather conditions for a date in the past or future.
+
+* Weather Conditions
+
+## The Dark Sky API offers a full collection of meteorological conditions in 39 different languages, including:
+
+* Apparent (feels-like) temperature
+
+* Atmospheric pressure
+
+* Cloud cover
+
+* Dew point
+
+* Humidity
+
+* Liquid precipitation rate
+
+*Both forecast and time machine requests return the same weather conditions, in the same convenient JSON format. You can parse the response directly, or use one several community-contributed libraries to interact with our API in the programming language of your choice.*
+
+
